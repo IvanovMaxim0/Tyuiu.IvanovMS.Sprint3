@@ -5,13 +5,14 @@ namespace Tyuiu.IvanovMS.Sprint3.Task0.V18.Lib
     {
         public double GetMultiplySeries(int value, int startValue, int stopValue)
         {
-            double multiplySeries = 0;
+            double multSeries = 1;
             int i;
             for (i = startValue; i <= stopValue; i++)
             {
-                multiplySeries = multiplySeries + (Math.Pow((2 / (Math.Cos(value) + 0.5)), i));
+                multSeries = multSeries + (Math.Pow((2 / (Math.Cos(value) + 0.5)), startValue));
+                startValue++;
             }
-            return Math.Round(multiplySeries, 3);
+            return Math.Round(multSeries, 3);
         }
     }
 }
