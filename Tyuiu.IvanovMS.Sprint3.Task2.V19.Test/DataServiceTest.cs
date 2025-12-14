@@ -1,5 +1,7 @@
-﻿using Tyuiu.IvanovMS.Sprint3.Task1.V22.Lib;
-namespace Tyuiu.IvanovMS.Sprint3.Task1.V22.Test
+﻿using Newtonsoft.Json.Linq;
+using Tyuiu.IvanovMS.Sprint3.Task2.V19.Lib;
+
+namespace Tyuiu.IvanovMS.Sprint3.Task2.V19.Test
 {
     [TestClass]
     public class DataServiceTest
@@ -8,13 +10,13 @@ namespace Tyuiu.IvanovMS.Sprint3.Task1.V22.Test
         public void ValidGetSumSeries()
         {
             DataService ds = new DataService();
-            double value = 1.5;
+
             int startValue = 1;
-            int stopValue = 20;
+            int stopValue = 10;
 
-            double res = ds.GetSumSeries(value, startValue, stopValue);
+            double res = ds.GetSumSeries(startValue, stopValue);
 
-            double wait = 3550.571;
+            double wait = 2.702;
             Assert.AreEqual(wait, res);
         }
     }
