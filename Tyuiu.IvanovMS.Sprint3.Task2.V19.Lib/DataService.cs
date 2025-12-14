@@ -10,8 +10,8 @@ namespace Tyuiu.IvanovMS.Sprint3.Task2.V19.Lib
             do
             {
                 sumseries = sumseries + (Math.Cos(i) * 0.5);
-                startValue++;
-            } while (startValue <= stopValue);
+                i++;
+            } while (i <= stopValue);
             return Math.Round(sumseries, 3);
         }
     }
