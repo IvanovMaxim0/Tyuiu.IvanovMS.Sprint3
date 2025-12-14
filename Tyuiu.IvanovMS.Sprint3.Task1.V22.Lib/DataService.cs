@@ -6,9 +6,9 @@ namespace Tyuiu.IvanovMS.Sprint3.Task1.V22.Lib
         public double GetSumSeries(double value, int startValue, int stopValue)
         {
             double sumseries = 1;
-            while (startValue <= stopValue) 
+            while (startValue <= stopValue)
             {
-                sumseries = (Math.Pow(sumseries, startValue) + 0.5) * Math.Cos(startValue);
+                sumseries = sumseries + ((Math.Pow(value, startValue) + 0.5) * Math.Cos(startValue));
                 startValue++;
             }
             return Math.Round(sumseries, 3);

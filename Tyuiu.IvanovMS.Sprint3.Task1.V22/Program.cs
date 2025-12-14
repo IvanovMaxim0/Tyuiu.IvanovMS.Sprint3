@@ -18,7 +18,7 @@ class Program
         Console.WriteLine("* ряда по формуле, при a = 1.5:                                           *");
         Console.WriteLine("*       20                                                                *");
         Console.WriteLine("*       __    k                                                           *");
-        Console.WriteLine("*  P = |  | (a  + 0.5) * cos k                                            *");
+        Console.WriteLine("*  S = |  | (a  + 0.5) * cos k                                            *");
         Console.WriteLine("*      |  |                                                               *");
         Console.WriteLine("*      k=1                                                                *");
         Console.WriteLine("***************************************************************************");
@@ -28,7 +28,7 @@ class Program
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
-        double a = 1.5; int start = 1; int stop = 20;
-        Console.WriteLine(ds.GetSumSeries(a, start, stop));
+        double a = 1.5; int startValue = 1; int stopValue = 20;
+        Console.WriteLine(ds.GetSumSeries(a, startValue, stopValue));
     }
 }
