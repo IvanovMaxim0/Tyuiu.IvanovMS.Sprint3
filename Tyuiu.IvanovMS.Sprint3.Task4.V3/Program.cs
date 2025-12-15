@@ -1,4 +1,4 @@
-﻿using Tyuiu.IvanovMS.Sprint3.Task3.V7.Lib;
+﻿using Tyuiu.IvanovMS.Sprint3.Task4.V3.Lib;
 class Program
 {
     static void Main(string[] args)
@@ -8,21 +8,20 @@ class Program
         Console.Title = "Спринт #3 | Выолнил: Иванов М. С. | ПКТБ-25-1";
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* Спринт #3                                                               *");
-        Console.WriteLine("* Оператор цикла foreach                                                  *");
-        Console.WriteLine("* Задание #3                                                              *");
-        Console.WriteLine("* Вариант #7                                                              *");
+        Console.WriteLine("* Использование операторов continue и break в циклах                      *");
+        Console.WriteLine("* Задание #4                                                              *");
+        Console.WriteLine("* Вариант #3                                                              *");
         Console.WriteLine("* Выполнил: Иванов Максим Сергеевич | ПКТБ-25-1                           *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* УСЛОВИЕ:                                                                *");
-        Console.WriteLine("* Используя цикл foreach заменить буквы g на цифру 4 в строке:            *");
-        Console.WriteLine("* gft hggt ntg                                                            *");
-        Console.WriteLine("*                                                                         *");
+        Console.WriteLine("* На отрезке, где x принимает значения от -5 до 5, вычислить значение     *");
+        Console.WriteLine("* функции y=cos(x) + sin(x) / x. При х = 0 прервать цикл. Полученные      *");
+        Console.WriteLine("* значения суммировать.                                                   *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
-        string str = "gft hggt ntg";
-        char replaceable = 'g';
-        char replacement = '4';
-        Console.WriteLine(ds.ReplaceCharOnNum(str, replaceable, replacement));
+        int start = -5;
+        int stop = 5;
+        Console.WriteLine(ds.Calculate(start, stop));
     }
 }
