@@ -7,7 +7,7 @@ namespace Tyuiu.IvanovMS.Sprint3.Task5.V16.Lib
         {
             double sumSeries = 0;
             int i, k;
-            for (i = startValue1; i <= stopValue1; i++);
+            for (i = startValue1; i <= stopValue1; i++)
             {
                 for (k = startValue2; k <= stopValue2; k++)
                 {
