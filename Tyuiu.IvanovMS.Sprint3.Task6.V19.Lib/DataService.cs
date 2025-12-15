@@ -6,15 +6,14 @@ namespace Tyuiu.IvanovMS.Sprint3.Task6.V19.Lib
     {
         public int GetSumTheDivisors(int startValue, int stopValue)
         {
-            int x;
             int sum = 0;
-            for (x = startValue; x <= stopValue; x++)
+            for (int x = startValue; x <= stopValue; x++)
             {
                 for (int d = 1; d <= 8; d++)
                 {
                     if (x % d == 0)
                     {
-                        sum += d;
+                        sum += 1;
                     }
                 }
             }
