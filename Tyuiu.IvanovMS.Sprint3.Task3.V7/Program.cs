@@ -11,7 +11,7 @@ class Program
         Console.WriteLine("* Оператор цикла foreach                                                  *");
         Console.WriteLine("* Задание #3                                                              *");
         Console.WriteLine("* Вариант #7                                                              *");
-        Console.WriteLine("* Выполнила: Иванов Максим Сергеевич | ПКТБ-25-1                          *");
+        Console.WriteLine("* Выполнил: Иванов Максим Сергеевич | ПКТБ-25-1                          *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* УСЛОВИЕ:                                                                *");
         Console.WriteLine("* Используя цикл foreach заменить буквы g на цифру 4 в строке:            *");
